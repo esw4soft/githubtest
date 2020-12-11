@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 git init 啟動git
 ls -a    查看所有包含隱藏的資料
+=======
+git init
+ls -a
+>>>>>>> canvas
 git config --global user.name 使用者名稱
 git config --global user.email 使用者信箱
 git config user.name 查看使用者名稱
@@ -13,5 +18,11 @@ git add 檔案名稱
 git add . 全部檔案加入
 git commit-m 自取名稱
 
+<<<<<<< HEAD
 git reset --hard HEAD~1 最新的上一個版本
 git reset --hard HEAD   目前版本
+=======
+git reset --hard HEAD~1
+
+branch123123
+>>>>>>> canvas
