@@ -1,2 +1,7 @@
+git init
+ls -a
+git config --global user.name easonexp
+git config --global user.email es250528@gmail.com
+
 git add a.txt
 git commit-m
