@@ -21,7 +21,9 @@
 - 897   
 
 
+# javascript
 ```javascript
-var x= 123;
+var x = 123;
+let y = 456;
 ```
 
