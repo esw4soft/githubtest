@@ -16,6 +16,7 @@
 - git add a.txt
 - git status
 - git log 
+- git clone12345
 
 ###### test6
 - 897   
