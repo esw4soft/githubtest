@@ -28,6 +28,9 @@ git merge 分支名稱 (master端)
 git commit -am 名稱      -am:(全部一起commit)
 
 
+asaasda
+
+
 
 
 branch123123merge
