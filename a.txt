@@ -27,11 +27,15 @@ git checkout 名稱  跳轉到指定commit地點
 git merge 分支名稱 (master端)
 git commit -am 名稱      -am:(全部一起commit)
 
-
-asaasda
-
-
-
-
 branch123123merge
+
+20211018
+將分支拉到主線
+git rebase 名稱 (branch) 
+branch移動指令:
+git branch -f 名稱 移動位置
+
+通常推到remote端會用revert
+反著再做一次
+git revert HEAD
 
