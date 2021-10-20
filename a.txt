@@ -39,3 +39,11 @@ git branch -f 名稱 移動位置
 反著再做一次
 git revert HEAD
 
+使用cherry-pick <> 互動式rebase 可能用到 文字編輯器core.editor 所以先加上設定：
+git config --global core.editor $(which vim)
+
+把某一點的commit剪取到某個位置的commit 
+git cherry-pick 某個commit 某個commit2
+ex:當develop已經開到很後面 ,而master還沒上線，但需要develop裡的某個commit點上線,就可以用cherry-pick
+在master使用cherry-pick某一commit,就可把某功能加入上線版本
+
