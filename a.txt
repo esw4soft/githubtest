@@ -47,3 +47,11 @@ git cherry-pick 某個commit 某個commit2
 ex:當develop已經開到很後面 ,而master還沒上線，但需要develop裡的某個commit點上線,就可以用cherry-pick
 在master使用cherry-pick某一commit,就可把某功能加入上線版本
 
+git分支策略
+可以把測試的東西跟debug修正的東西分開來,修正完在合回去,commit點可以分 debug點,console點,修正點
+
+git commit --amend
+在原本的點上上繼續走 不會多漲一個commit
+
+Merge回復上一動
+Git reset —hard ORIG_HEAD
