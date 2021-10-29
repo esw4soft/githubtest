@@ -55,3 +55,7 @@ git commit --amend
 
 Merge回復上一動
 Git reset —hard ORIG_HEAD
+
+rename local branch & remote branch
+git branch -m {old branch_name} {new branch_name}
+git push origin {new_branch_name} :{old_branch_name}
