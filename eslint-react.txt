@@ -1,0 +1,9 @@
+1npx create-react-app [name]
+2.npm init -y
+3.npm install eslint-config-standard
+4.npx eslint --init
+5.重開vscode
+
+https://medium.com/onedegree-tech-blog/%E5%BB%BA%E7%AB%8B%E5%85%AC%E5%8F%B8%E5%85%A7%E9%83%A8%E4%BD%BF%E7%94%A8%E7%9A%84-eslint-config-package-4b76c089848
+https://standardjs.com/
+https://ithelp.ithome.com.tw/articles/10217743
